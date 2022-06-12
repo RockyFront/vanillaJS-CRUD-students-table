@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+}
+
+.school-table {
+  border: 4px solid #111;
+  margin: 40px;
+  border-radius: 10px;
+}
+.school-table table {
+  width: 100%;
+  background: #fff;
+}
+.school-table table thead {
+  background: #495fb7;
+}
+.school-table table thead th {
+  cursor: pointer;
+}
+.school-table table tr:nth-child(2n) {
+  background: lightgray;
+}
+.school-table table tr td {
+  padding: 5px;
+  border-radius: 2px;
+  border-bottom: 1px solid #aaa;
+  margin: 0;
+  text-align: center;
+}
+.school-table table th {
+  color: #fff;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button.editButton {
+  background: #ca79dc;
+  color: #fff;
+}
+.button.saveButton {
+  background: aqua;
+  color: #fff;
+}
+.button.removeButton {
+  background: orangered;
+  color: #fff;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
